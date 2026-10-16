@@ -1,11 +1,11 @@
-﻿<#
+<#
     NetworkScanner - skaner sieci lokalnej: IP, MAC, producent, nazwa hosta
 
     Uruchomienie z GitHuba (autowykrywanie sieci):
-        irm https://raw.githubusercontent.com/TWOJ_LOGIN/NetworkScanner/main/NetworkScanner.ps1 | iex
+        irm https://raw.githubusercontent.com/GitRadekT/NetworkScanner/main/NetworkScanner.ps1 | iex
 
     Z parametrami:
-        & ([scriptblock]::Create((irm https://raw.githubusercontent.com/TWOJ_LOGIN/NetworkScanner/main/NetworkScanner.ps1))) -Network 10.0.0.0/22 -Csv C:\Temp\wynik.csv
+        & ([scriptblock]::Create((irm https://raw.githubusercontent.com/GitRadekT/NetworkScanner/main/NetworkScanner.ps1))) -Network 10.0.0.0/22 -Csv C:\Temp\wynik.csv
 
     Lokalnie:
         powershell -ExecutionPolicy Bypass -File NetworkScanner.ps1 -Network 192.168.1.0/24
